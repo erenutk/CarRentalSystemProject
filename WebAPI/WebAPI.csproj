@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\09b847ce-1adc-4576-80c1-17fd1df028f8.PNG" />
+    <None Include="wwwroot\Images\15823310-0ba9-43fa-a0d1-48bcc92be588.PNG" />
+    <None Include="wwwroot\Images\1aeb376b-c192-41e7-b6c4-cb83b975d361.PNG" />
+    <None Include="wwwroot\Images\23c50221-fac8-449a-94fe-7a3afeb47b1f.PNG" />
+    <None Include="wwwroot\Images\36748fbd-b0a2-4fdb-a488-331766c66270.PNG" />
+    <None Include="wwwroot\Images\37a040d2-d941-4131-990f-eedfe4bab6c9.PNG" />
+    <None Include="wwwroot\Images\41c7dc7c-d9e3-4b33-9065-aeef43b4a43e.PNG" />
+    <None Include="wwwroot\Images\486bc7ac-6a1c-4570-a44f-828eddebeb19.PNG" />
+    <None Include="wwwroot\Images\512a83c7-4445-419a-b366-09b3558544ca.PNG" />
+    <None Include="wwwroot\Images\54f1e2e1-2da5-441d-9dc8-21daec5a527d.PNG" />
+    <None Include="wwwroot\Images\73b35477-4fc1-4866-b9da-4185431985d8.PNG" />
+    <None Include="wwwroot\Images\7dbaee7c-7f0f-4d73-a479-cfaf7eeed654.PNG" />
+    <None Include="wwwroot\Images\7ee2d3da-4e02-4d46-89e6-49b522bbc575.PNG" />
+    <None Include="wwwroot\Images\978b1e73-1741-4a15-b721-3388bfd8c9f8.PNG" />
+    <None Include="wwwroot\Images\b2cfddaf-32d5-4fb0-a647-ce7506cbd3e7.PNG" />
+    <None Include="wwwroot\Images\d8b86633-c3a3-4f7b-85fa-ba36f243f2c4.PNG" />
+    <None Include="wwwroot\Images\default.png" />
+    <None Include="wwwroot\Images\e3372efa-bf64-4a65-b3b5-f10f7f0757ef.PNG" />
+    <None Include="wwwroot\Images\e4144c2d-b50a-4b06-88cb-a8cde6f686e8.PNG" />
+    <None Include="wwwroot\Images\e9e42017-9378-4bc1-8a60-dea4b78a3d83.PNG" />
+  </ItemGroup>
+
+
+</Project>
